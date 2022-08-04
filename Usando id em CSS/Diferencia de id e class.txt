@@ -1,0 +1,14 @@
+	Id serve apenas para usar uma vez em uma tag por exemplo:
+
+	Usar duas tag chamada "cavalo" para fazer alguma coisa.
+
+	Em outras palavra não pode existir dois id com o mesmo nome.
+
+	Já o class pode ter quantas class com o mesmo nome que precisar.
+
+	Nunca de nome aos id pela forma por exemplo:
+
+	Vou usar um id para deixar um <h1> com a cor verde não posso colocar o nome do id de verde pois se no futuro eu decedir
+ ou o cliente decedir trocar, terá muita dificuldade pois terei que trocar o id e a cor sendo que se eu colocace apenas a função
+que no caso é colocar a cor teria apenas que trocar a cor em não precisaria mexer no id  
+.

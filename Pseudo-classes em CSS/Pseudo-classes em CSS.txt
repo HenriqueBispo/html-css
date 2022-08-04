@@ -1,0 +1,5 @@
+Pseudo classes são aqueles :hover :root etc... Irei tentar fazer varios exemplos no site de alguns Pseudo-classes
+
+div:hover = alguma ação que vai tomar se o mouse passar por cima da div no caso do exemplo
+
+ 

@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #84e1ad;
+}
+
+header {
+    background-image: linear-gradient(#3bd27f, #185031);
+    height: 200px;
+}
+
+#h1_header {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+    }
+
+#p_header {
+    text-align: center;
+    color: white;
+}
+
+#ul_header {
+   padding: 0px;
+   margin-top: 50px;
+}
+
+.li_header {
+    list-style-type: none;
+    display: inline; 
+}
+
+.a_header {
+    padding-left: 20px;
+    text-align: left;
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.a_header:hover {
+    background-color: #5dac80;
+}
+
+.a_text {
+    background-color: #84e1ad;
+    color: #002e15;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.493);
+    /*border-radius: 0px 0px 10px 10px;*/
+    padding: 15px;
+    width: 710px;
+    margin: auto;
+}
+
+h1 {
+    color: #306c4c;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    background-image: linear-gradient(to right,#c5ebd6, white);
+    color: #306c4c;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p {
+    text-indent: 25px;
+    text-align: left;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    background-color: #185031;
+    text-align: center;
+    padding: 30px;
+    width: 681px;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    text-align: center;
+    box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    width: 710px;
+    margin: auto;
+}
+
+aside {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.493);
+}
+
+.pe_aside {
+    padding: 15px;
+}
+
+.ul_aside{
+    padding: 0px;
+    display: inline;
+    
+}
+
+.li_aside {
+    list-style-type: none;
+    display: inline; 
+}
+
+.a_aside {
+   
+    padding-right: 250px;
+    text-align: left;
+    margin-left: 0px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}

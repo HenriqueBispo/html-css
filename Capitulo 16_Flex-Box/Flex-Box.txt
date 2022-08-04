@@ -1,0 +1,31 @@
+Anatomia de uma caixa
+
+height = altura
+width = largura
+border = borda
+padding = prenchimento
+margin = margem
+outline = contorno or traçado
+
+			Tipos de caixa
+	||Box-level||
+	
+	Sempre começa na proxima linha e ocupa o maximo de espaço possivel na
+ horizontal, <div>, <h1>-<h6>, <p>, <main>, <header>, <nav>, <article>, <aside>,
+ <footer>, <form> e <video> são exemplos de Box-level.
+
+[]
+[]
+[]
+.
+.
+.
+	||Inline-level||
+
+	Nunca quebra as linha e ocupa o tanto de espaço que ele precisar para 
+ mostrar seu conteúdo. <span>, <a>, <code>, <small>, <strong>, <em>, <sup>-<sub>,
+ <label>, <button>, <input> e <select> são exemplos de Inline-level. 
+
+[][][]... 
+
+(Amei esse exemplo que iventei)
