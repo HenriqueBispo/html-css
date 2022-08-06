@@ -4,48 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        table {
-            width: 300px;
+        table{
+            border-collapse: collapse;
         }
 
-        td {
-            border: 1px solid black;
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid gray;
             padding: 10px;
             text-align: center;
         }
     </style>
 </head>
 <body>
+
     <table>
-        <tr>
-            <td colspan="4">A</td>
-            <td rowspan="4">B</td>
-        </tr>
-        <tr>
-            <td rowspan="4">C</td>
-            <td>D</td>
-            <td>E</td>
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>G</td>
-            <td>H</td>
-            <td>I</td>
-        </tr>
-        <tr>
-            <td>J</td>
-            <td>L</td>
-            <td>M</td>
-        </tr>
-        <tr>
-            <td colspan="4">N</td>
-        </tr>
+        <caption>Boletin</caption>
+        
+        <thead>
+            <tr>
+                <th rowspan="2" >Área</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>Média de Exatas</tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </tbody>
     </table>
 </body>
 </html>
